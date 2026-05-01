@@ -23,10 +23,17 @@ function App() {
         </div>
         <button
           type="button"
-          className="counter"
+          className="counter mr-2"
           onClick={() => setCount((count) => count + 1)}
         >
-          Count is {count}
+          Count is {count} +
+        </button>
+        <button
+          type="button"
+          className="counter"
+          onClick={() => setCount((count) => count - 1)}
+        >
+          Count is {count} -
         </button>
       </section>
 
