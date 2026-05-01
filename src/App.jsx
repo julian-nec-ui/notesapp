@@ -22,10 +22,10 @@ function App() {
           </p>
         </div>
 
-        <div className='flex'>
+        <div className='flex gap-3'>
           <button
             type="button"
-            className="counter mr-2"
+            className="counter"
             onClick={() => setCount((count) => count + 1)}
           >
             Count is {count} +
