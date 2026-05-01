@@ -32,7 +32,7 @@ function App() {
           </button>
           <button
             type="button"
-            className="counter"
+            className="counter-plus"
             onClick={() => setCount((count) => count - 1)}
           >
             Count is {count} -
