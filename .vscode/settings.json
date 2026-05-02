@@ -8,5 +8,9 @@
     "tab.inactiveForeground": "#bcdce9",
     "tab.unfocusedActiveForeground": "#FFA500",
     "tab.unfocusedInactiveForeground": "#91c8e2"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss",
+    "*.scss": "tailwindcss",
   }
 }
